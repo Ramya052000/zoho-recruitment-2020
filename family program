@@ -1,0 +1,51 @@
+#include <stdio.h>
+#define NUM 5
+int main()
+{
+    char person_name[NUM][20];
+    char gender[NUM][20];
+    char father[NUM][20];
+    char mother[NUM][20];
+    char * result;
+    a=(char *)malloc(NUM * sizeof(char));
+    int i=0;
+    b=char[20];
+    int j=0;
+    
+    for(i=0;i<NUM;i++) {
+        scanf("%s %s %s %s",person_name,gender,father,mother);
+    }
+    
+    char input[20];
+    scanf("%s",name);
+    for(i=0;i<NUM;i++){
+        if(person_name==input){
+            if(gender=="Male"){
+                char t[20]=father[i];
+                char t1[20]=mother[i];
+            }
+            else{
+                char t[20]=father[i];
+                char t1[20]=mother[i];
+            }
+        }
+    }
+    for(i=0;i<NUM;i++) {
+        if(father[i]==t || mother[i]==t1){
+            char sis[20]=person_name;
+        }
+    }
+    
+    for(i=0;i<NUM;i++) {
+        if(mother[i]==sis);
+        b[j]=person_name;
+        j++;
+        
+    }
+    
+    for(i=0;i<j;i++){
+        printf("%s,",b[j]);
+    }
+    return 0;
+}
+
